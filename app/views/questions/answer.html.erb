@@ -1,0 +1,11 @@
+<div class="container mt-5">
+  <h1 class="mb-4">Coach's Answer</h1>
+
+  <div class="mb-3">
+    <p><strong>Your question:</strong> <span class="text-muted"><%= @question %></span></p>
+    <p><strong>Coach says:</strong> <span class="text-success"><%= @answer %></span></p>
+  </div>
+
+  <%= link_to "Ask another question", ask_path, class: "btn btn-secondary" %>
+</div>
+
